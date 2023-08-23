@@ -1,0 +1,18 @@
+{
+  "name": "banko/phpiggy",
+  "description": "PHP app for tracking expenses",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Davids Arabuli",
+      "email": "davidsarabuli@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Framework\\": "src/Framework",
+      "App\\": "src/App"
+    }
+  }
+}
